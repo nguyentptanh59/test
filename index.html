@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khởi Đầu Dự Án Web - Test Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-glow"></div>
+
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icon">🚀</span>
+      <span class="logo-text">TestProject</span>
+    </div>
+    <div class="nav-actions">
+      <button id="themeToggle" class="btn btn-secondary" aria-label="Đổi giao diện">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <a href="https://github.com/nguyentptanh59/test" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        GitHub Repo
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="badge">✨ Dự án đã kết nối GitHub & Git Workflow</div>
+      <h1 class="hero-title">Khởi Tạo Dự Án Web Thành Công</h1>
+      <p class="hero-desc">
+        Repository đã được thiết lập quy chuẩn với Git, GitHub, <code>.gitignore</code> và sẵn sàng cho việc phát triển các tính năng tiếp theo.
+      </p>
+
+      <div class="cta-group">
+        <button id="counterBtn" class="btn btn-primary">
+          Số lần click: <span id="clickCount">0</span>
+        </button>
+        <button id="copyRepoBtn" class="btn btn-outline">
+          📋 Copy Clone URL
+        </button>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <div class="card-icon">📂</div>
+        <h3>Cấu Trúc Chuẩn</h3>
+        <p>Tệp <code>.gitignore</code> chuẩn giúp bảo vệ repository khỏi file thừa, khóa bí mật và mã biên dịch.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="card-icon">🌿</div>
+        <h3>Git Workflow</h3>
+        <p>Áp dụng mô hình phân nhánh (Branching) để phát triển tính năng an toàn trước khi hợp nhất vào <code>main</code>.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="card-icon">🌐</div>
+        <h3>Deploy Tự Động</h3>
+        <p>Sẵn sàng đưa lên môi trường trực tuyến thông qua GitHub Pages mà không cần thuê máy chủ riêng.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Test Project • Phát triển bởi <a href="https://github.com/nguyentptanh59" target="_blank" rel="noopener noreferrer">nguyentptanh59</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
